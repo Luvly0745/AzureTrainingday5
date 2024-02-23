@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "DelimitedText2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_Fileto",
@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "DBFile3.csv",
-				"fileSystem": "raw"
+				"fileSystem": "target"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
